@@ -481,3 +481,52 @@ a {
   font-style: italic;
   line-height: 1.54;
 }
+
+/* =================features================== */
+
+.features {
+  margin-top: 135px;
+  padding: 65px 0;
+}
+
+.features .body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.features .images {
+  display: flex;
+  gap: 30px;
+}
+
+.features .images img {
+  width: 270px;
+  height: 405px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.features .lower {
+  margin-top: 34px;
+}
+
+.features .content {
+  width: 41%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.features .desc {
+  margin-top: 16px;
+  color: #5f5b53;
+  font-size: 1.6rem;
+  line-height: 1.75;
+}
+
+.features .cta-btn {
+  margin-top: 32px;
+  width: 137px;
+  height: 50px;
+  background: var(--primary-color);
+}
